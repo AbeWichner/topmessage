@@ -1,8 +1,8 @@
 (function ( $ ){
   /*
-  All rights reseved to https://www.gabarea.com [Abdallah Ibrahim Salameh Alhabarneh] 2016
-  For more information please visit us at https://www.gabarea.com or contact us at abdallah.alhabarneh@gmail.com
-  Or easily you can go to https://www.gabarea.com/contact-us
+  All rights reseved to https://www.questific.com [Abdallah Ibrahim Salameh Alhabarneh] 2016
+  For more information please visit us at https://www.questific.com or contact us at abdallah.alhabarneh@gmail.com
+  Or easily you can go to https://www.questific.com/contact-us
   */
   
   var MWR, MOB;
@@ -224,10 +224,6 @@
         })
       }
 
-      //obj.html( contentObj.html() + actionObj.html() + 'fuck' );
-
-      //alert(contentObj.attr('id'));
-
       var appearingDelay = parseInt(settings.delayOfAppearing * 1000);
       obj.css('opacity', '0'); //, 'display': 'block'});
 
@@ -239,7 +235,7 @@
         }
       })
     },
-  }; // Abe J. Wichner
+  }; // Abdallah Alhabarneh
 
   $.fn.gatopmessage = function(methodOrOptions){
     if ( methods[methodOrOptions] ) {
@@ -248,7 +244,7 @@
       // Default to "init"
       return methods.init.apply( this, arguments );
     } else {
-      $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.topmessage.ga GabArea please contact us GabArea.com' );
+      $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.topmessage.ga Questific please contact us questific.com' );
     }
   }
 
